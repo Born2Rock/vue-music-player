@@ -1,0 +1,68 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "parser": {
+            "ts": "@typescript-eslint/parser",
+            "js": "@typescript-eslint/parser",
+            "<template>": "espree"
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue",
+        "@typescript-eslint",
+        "unused-imports",
+        "andrews"
+    ],
+    "ignorePatterns": ["**/stories/*", "**/.*/*"],
+    "rules": {
+        "vue/no-multiple-template-root": 0,
+        "vue/multi-word-component-names": 0,
+        "vue/no-reserved-component-names": 0,
+        "vue/max-attributes-per-line": 0,
+        "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
+            "warn",
+            { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+        ],
+        "linebreak-style": "off",
+        "andrews/path-checker": [
+            "error",
+            {
+                "alias": "@"
+            }
+        ]
+//        "andrews/public-api-imports": [
+//            "error",
+//            {
+//                "alias": "@",
+//                "ignoreImportPatterns": ["**/StoreProvider", "**/testing"]
+//            }
+//        ],
+//        "andrews/layer-imports": [
+//           "error",
+//            {
+//                "alias": "@",
+//                "testFilesPatterns": [
+//                    "**/*.test.*",
+//                    "**/*.story.*",
+//                    "**/StoreDecorator.tsx"
+//                ]
+//            }
+//        ]
+    }
+}

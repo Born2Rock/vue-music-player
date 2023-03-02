@@ -1,0 +1,12 @@
+export { default as burger } from './icons/burger.svg';
+export { default as heart } from './icons/heart.svg';
+export { default as shuffle } from './icons/shuffle.svg';
+export { default as repeat } from './icons/repeat.svg';
+export { default as kebab } from './icons/kebab.svg';
+export { default as play } from './icons/play.svg';
+export { default as pause } from './icons/pause.svg';
+export { default as fastbackward } from './icons/fast-backward.svg';
+export { default as fastforward } from './icons/fast-forward.svg';
+export { default as preloader } from './icons/preloader.svg';
+export { default as theme } from './icons/theme.svg';
+export { default as volume } from './icons/volume.svg';

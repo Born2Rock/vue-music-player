@@ -1,0 +1,46 @@
+.track-list {
+  position: absolute;
+  top: 378px;
+  right: 12px;
+  left: 12px;
+  overflow-x: auto;
+  width: auto;
+  padding-right: 8px;
+  border-spacing: 0 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in;
+  transform: scale(0.1, 0.1);
+  transform-origin: 0% 0%;
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #fff;
+}
+
+.track-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.track-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.track-list::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 2px;
+  background-color: var(--inverted-primary-color);
+}
+
+.track-segmented-btns {
+  margin-bottom: 12px;
+}
+
+.playlist-visible .track-list {
+  top: 192px;
+  right: 12px;
+  bottom: 50px;
+  left: 12px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in;
+  transform: scale(1, 1);
+}

@@ -1,0 +1,14 @@
+id,artist_id,album_id,name,file,duration,isFavorite
+1,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp3,1:22:38,false
+2,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp4,1:22:39,true
+3,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp5,1:22:40,false
+4,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp6,1:22:41,false
+5,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp7,1:22:42,true
+6,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp8,1:22:43,false
+7,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp9,1:22:44,false
+8,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp10,1:22:45,true
+9,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp11,1:22:46,false
+10,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp12,1:22:47,true
+11,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp13,1:22:48,false
+12,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp14,1:22:49,false
+13,1,1,Relaxed Vlog,/musicLibrary/tracks/track_1.mp15,1:22:50,false

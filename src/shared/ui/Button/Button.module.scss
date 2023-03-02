@@ -1,0 +1,30 @@
+.Button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--inverted-secondary-color);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--inverted-primary-color);
+  }
+}
+
+.Button.size_m {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+
+.Button.size_l {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+
+.Button.size_xl {
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+}

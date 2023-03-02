@@ -1,0 +1,15 @@
+id,artist_id,album_id,name,file,duration,isFavorite
+1,1,1,Sweet Revenge Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:38,false
+2,2,1,Purpura Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:39,true
+3,3,1,How We Do Mizzo Remix,/musicLibrary/tracks/track_1.mp3,1:22:40,false
+4,4,1,Street Knowledge Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:41,false
+5,5,1,303 Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:42,true
+6,6,1,Vagabond Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:43,false
+7,7,1,Come Over Me Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:44,false
+8,8,1,Fried Chicken Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:45,true
+9,9,1,Dreamland Pirate Jams Remix (Club Mix),/musicLibrary/tracks/track_1.mp3,1:22:46,false
+10,10,1,Make My Day OnDaMike Remix,/musicLibrary/tracks/track_1.mp3,1:22:47,true
+11,11,1,Everybody In The Club Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:48,false
+12,12,1,Confinament Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:49,false
+13,13,1,Acid Trip Original Mix,/musicLibrary/tracks/track_1.mp3,1:22:50,false
+14,14,1,Blue feat. Leo Wood Extended Mix,/musicLibrary/tracks/track_1.mp3,1:22:51,false
